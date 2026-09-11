@@ -1,11 +1,15 @@
-# SmartKhata
+
+
+
+<h1 align="center">SmartKhata</h1>
 
 <p align="center">
-  <strong>Digital credit, inventory, sales & expense management for small businesses.</strong>
+  <strong>Digital Credit, Inventory, Sales & Expense Management for Small Businesses</strong>
 </p>
 
 <p align="center">
-  A mobile-first application for managing customers, credit, inventory, sales, expenses, and business operations.
+  A mobile-first business management application designed to help small shop owners
+  manage customers, credit, inventory, sales, expenses, and daily business operations.
 </p>
 
 <p align="center">
@@ -13,46 +17,53 @@
   <img src="https://img.shields.io/badge/Expo-54-black?logo=expo" alt="Expo">
   <img src="https://img.shields.io/badge/TypeScript-blue?logo=typescript" alt="TypeScript">
   <img src="https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/Java-21-orange?logo=openjdk" alt="Java">
+  <img src="https://img.shields.io/badge/Java-21-orange?logo=openjdk" alt="Java 21">
   <img src="https://img.shields.io/badge/PostgreSQL-18-336791?logo=postgresql" alt="PostgreSQL">
 </p>
 
 ---
 
-## Overview
+## 📱 Overview
 
 **SmartKhata** is a full-stack mobile application built to digitize everyday business management for small shop owners.
 
-It replaces traditional notebook-based credit and business record keeping with a centralized system for managing customer ledgers, products, inventory, sales, expenses, and business insights.
+Traditional businesses often rely on notebooks to track customer credit, payments, inventory, sales, and expenses. SmartKhata provides a centralized digital solution that makes these operations easier to manage and monitor.
 
-The application consists of a **React Native mobile frontend** and a **Spring Boot REST API** backed by **PostgreSQL**.
+The application consists of:
 
----
-
-## Features
-
-* **Authentication** — Secure registration and login using JWT authentication.
-* **Customer Management** — Create, update, view, and manage shop customers.
-* **Credit Management** — Record customer credit and payments with outstanding balance tracking.
-* **Customer Ledger** — View transaction history and customer statements.
-* **Product Management** — Manage products, pricing, and stock.
-* **Inventory Tracking** — Monitor stock levels and identify low-stock products.
-* **Sales Management** — Create sales with multiple products and payment methods.
-* **Expense Management** — Record and categorize business expenses.
-* **Dashboard** — View sales, expenses, profit, outstanding credit, customers, products, and low-stock information.
-* **Shop Management** — Maintain business data for the shop owner.
+- 📱 **React Native mobile application**
+- ⚙️ **Spring Boot REST API**
+- 🗄️ **PostgreSQL database**
+- 🔐 **JWT-based authentication**
+- ☁️ **Cloudinary integration for media management**
 
 ---
 
-## Screenshots
+## ✨ Features
 
-> Add your application screenshots here.
+| Feature | Description |
+|---|---|
+| 🔐 **Authentication** | Secure registration and login using JWT authentication |
+| 👥 **Customer Management** | Create, update, view, and manage customers |
+| 💳 **Credit Management** | Record customer credit, payments, and outstanding balances |
+| 📖 **Customer Ledger** | View customer transaction history and statements |
+| 📦 **Product Management** | Manage products, pricing, and stock |
+| 📊 **Inventory Tracking** | Monitor stock levels and identify low-stock products |
+| 🛒 **Sales Management** | Create sales containing multiple products |
+| 💰 **Payment Tracking** | Support cash and credit-based transactions |
+| 🧾 **Expense Management** | Record and categorize business expenses |
+| 📈 **Dashboard** | View sales, expenses, profit, credit, customers, and inventory insights |
+| 🏪 **Shop Management** | Manage shop and business information |
+
+---
+
+# 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/login.png" width="220" alt="Login">
-  <img src="screenshots/dashboard.png" width="220" alt="Dashboard">
-  <img src="screenshots/customers.png" width="220" alt="Customers">
-  <img src="screenshots/products.png" width="220" alt="Products">
+  <img src="screenshots/Login.jpeg" height="500" alt="Login Screen">
+  <img src="screenshots/Dashboard.jpeg" height="500" alt="Dashboard Screen">
+  <img src="screenshots/Customer.jpeg" height="500" alt="Customer Screen">
+  <img src="screenshots/Sales.jpeg" height="500" alt="Sales Screen">
 </p>
 
 ---
@@ -60,7 +71,6 @@ The application consists of a **React Native mobile frontend** and a **Spring Bo
 ## Tech Stack
 
 ### Frontend
-
 * React Native
 * Expo
 * TypeScript
@@ -71,7 +81,6 @@ The application consists of a **React Native mobile frontend** and a **Spring Bo
 * Axios
 
 ### Backend
-
 * Java 21
 * Spring Boot 3
 * Spring Security
@@ -81,7 +90,6 @@ The application consists of a **React Native mobile frontend** and a **Spring Bo
 * Maven
 
 ### Database & Services
-
 * PostgreSQL
 * Cloudinary
 * Git
@@ -129,9 +137,3 @@ The application consists of a **React Native mobile frontend** and a **Spring Bo
 
 ---
 
-
-## Author
-
-**Jogeshkumar Mali**
-
-If you found this project useful or interesting, consider giving it a ⭐ on GitHub.
