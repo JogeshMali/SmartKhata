@@ -59,13 +59,18 @@ The application consists of:
 
 # 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/Login.jpeg" height="500" alt="Login Screen">
-  <img src="screenshots/Dashboard.jpeg" height="500" alt="Dashboard Screen">
-  <img src="screenshots/Customer.jpeg" height="500" alt="Customer Screen">
-  <img src="screenshots/Sales.jpeg" height="500" alt="Sales Screen">
-</p>
+## 📸 Screenshots
 
+<p align="center">
+  <img src="screenshots/Login.jpeg" height="500" alt="Login">
+  <img src="screenshots/Dashboard.jpeg" height="500" alt="Dashboard">
+</p>
+<br>
+<br>
+<p align="center">
+  <img src="screenshots/Customer.jpeg" height="500" alt="Customers">
+  <img src="screenshots/Sales.jpeg" height="500" alt="Sales">
+</p>
 ---
 
 ## Tech Stack
