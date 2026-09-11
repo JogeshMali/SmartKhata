@@ -1,0 +1,71 @@
+# =========================
+# React Native / Expo
+# =========================
+
+frontend/SmartKhata/node_modules/
+frontend/SmartKhata/.expo/
+frontend/SmartKhata/dist/
+frontend/SmartKhata/web-build/
+
+# React Native Android
+frontend/SmartKhata/android/.gradle/
+frontend/SmartKhata/android/local.properties/
+frontend/SmartKhata/android/build/
+frontend/SmartKhata/android/app/build/
+
+# React Native iOS
+frontend/SmartKhata/ios/Pods/
+frontend/SmartKhata/ios/build/
+
+
+# =========================
+# Spring Boot / Gradle
+# =========================
+
+backend/SmartKhata-backend/.gradle/
+backend/SmartKhata-backend/build/
+backend/SmartKhata-backend/out/
+
+# Java compiled files
+*.class
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+.vscode/
+*.iml
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Android build files
+# =========================
+
+*.apk
+*.aab
